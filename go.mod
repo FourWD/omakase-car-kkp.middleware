@@ -1,4 +1,4 @@
-module omakase-car-kkp.middleware
+module github.com/FourWD/omakase-car-kkp.middleware
 
 go 1.21.0
 
