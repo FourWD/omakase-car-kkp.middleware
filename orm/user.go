@@ -15,4 +15,5 @@ type User struct {
 	FileAvatarID string `json:"file_avartar_id" query:"file_avartar_id" gorm:"type:varchar(36)"`
 	Mobile       string `json:"mobile" query:"mobile" gorm:"type:varchar(20);"`
 	Email        string `json:"email" query:"email" gorm:"type:varchar(20);"`
+	//eiei
 }
