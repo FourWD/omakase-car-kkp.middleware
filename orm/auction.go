@@ -6,7 +6,7 @@ import (
 	"github.com/FourWD/middleware/orm"
 )
 
-type auction struct {
+type Auction struct {
 	ID string `json:"id" query:"id" gorm:"type:varchar(36);primary_key;"`
 	orm.GormModel
 
