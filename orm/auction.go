@@ -12,8 +12,6 @@ type Auction struct {
 
 	ApproveDate time.Time `json:"approve_date" query:"approve_date" gorm:"type:time;"`
 	ApproveBy   string    `json:"approve_by" query:"approve_by" gorm:"type:varchar(50);"`
-	VehicleNo   string    `json:"vehicle_no" query:"vehicle_no" gorm:"type:varchar(20);"`
-	AuctionNo   string    `json:"auction_no" query:"auction_no" gorm:"type:varchar(20);"`
-	AuctionDate string    `json:"auction_date" query:"auction_date" gorm:"type:varchar(10);"`
+	VehicleID   string    `json:"vehicle_id" query:"vehicle_id" gorm:"type:varchar(36);"`
 	IsApprove   bool      `json:"is_approve" query:"is_approve" gorm:"type:bool;"`
 }
